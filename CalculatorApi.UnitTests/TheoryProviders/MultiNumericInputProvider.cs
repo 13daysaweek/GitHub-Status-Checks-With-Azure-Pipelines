@@ -5,6 +5,9 @@ using CalculatorApi.Models;
 
 namespace CalculatorApi.UnitTests.TheoryProviders
 {
+    /// <summary>
+    /// Returns input for addition tests
+    /// </summary>
     public class MultiNumericInputProvider : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
